@@ -82,6 +82,17 @@ Then open http://localhost:7860 in your browser.
 
 > For scanned PDFs (images inside PDF), use llava model — it can read text from images.
 
+
+## Screenshots
+
+### Home Screen
+![Home Screen](assets/home.png)
+
+### AI-Powered PDF Redaction
+![Redaction Demo](assets/redaction_demo.png)
+
+### Document Classification
+![Classification Demo](assets/classification_demo.png)
 ---
 
 ## Output Examples
