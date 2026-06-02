@@ -1,25 +1,15 @@
-# Ollama Offline PDF Intelligence Tool
+# Offline AI Document Intelligence Platform
 
-A fully offline AI-powered PDF processing system using Ollama. Two core capabilities:
+An AI-powered document processing platform built using Ollama, Python, and Gradio that operates entirely offline. The system automatically detects and redacts sensitive information, extracts structured document data, and classifies PDF pages into custom categories while ensuring complete data privacy by keeping all processing on local infrastructure.
 
-## Features
+## Key Features
 
-### 1. 🔒 PII Redaction (`redact_pdf.py`)
-- Extracts key info from documents (marksheets, certificates, IDs)
-- Automatically detects and hides sensitive data:
-  - Aadhaar numbers
-  - PAN card numbers
-  - Phone numbers
-  - Email addresses
-  - Date of birth
-  - Bank account / IFSC numbers
-- Outputs a clean JSON summary + redacted text
-
-### 2. 📂 PDF Page Classifier (`classify_pdf.py`)
-- You define up to N custom categories (e.g. "Invoice", "Resume", "Legal", etc.)
-- Upload any multi-page PDF
-- The model identifies which pages belong to which category
-- Outputs a per-page classification report + category summary
+* AI-Powered PII Detection & Redaction
+* Structured Information Extraction
+* Custom PDF Page Classification
+* Fully Offline Processing with Ollama
+* Gradio-Based Interactive Interface
+* Support for Multiple Document Types
 
 ---
 
@@ -128,3 +118,23 @@ Then open http://localhost:7860 in your browser.
   ]
 }
 ```
+## Tech Stack
+
+* Python
+* Ollama
+* Gradio
+* PyMuPDF
+* PDFPlumber
+* Pillow
+* PyTesseract
+* JSON
+
+## Future Improvements
+
+* OCR optimization for scanned PDFs
+* Support for multilingual documents
+* Batch processing of large document collections
+* Role-based redaction policies
+* Vector-search powered document retrieval
+* Enterprise audit and compliance reporting
+
