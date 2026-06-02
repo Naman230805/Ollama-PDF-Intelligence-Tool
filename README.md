@@ -83,6 +83,10 @@ Then open http://localhost:7860 in your browser.
 > For scanned PDFs (images inside PDF), use llava model — it can read text from images.
 
 
+## Architecture
+
+![Architecture](assets/architecture.png)
+
 ## Screenshots
 
 ### Home Screen
@@ -93,10 +97,6 @@ Then open http://localhost:7860 in your browser.
 
 ### Document Classification
 ![Classification Demo](assets/classification_demo.png)
----
-
-## Output Examples
-
 ### Redaction Output
 ```json
 {
