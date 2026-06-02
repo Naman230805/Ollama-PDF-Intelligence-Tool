@@ -1,0 +1,24 @@
+{
+  "categories": [
+    "Invoice",
+    "Purchase Order",
+    "Resume / CV",
+    "Cover Letter",
+    "Legal Contract",
+    "Non-Disclosure Agreement",
+    "Bank Statement",
+    "Tax Document",
+    "Medical Report",
+    "Prescription",
+    "Academic Marksheet",
+    "Degree Certificate",
+    "Admission Letter",
+    "Government ID",
+    "Insurance Policy",
+    "Property Document",
+    "Meeting Minutes",
+    "Project Report",
+    "Technical Specification",
+    "Email Printout"
+  ]
+}
